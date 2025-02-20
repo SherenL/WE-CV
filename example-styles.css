@@ -1,0 +1,78 @@
+html {
+    background-color: aliceblue;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    max-width: 960px;
+    margin: auto;
+    background-color: white;
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: .2em;
+    padding-bottom: 1em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1em;
+    padding-bottom: 1em;
+    font-weight: 600;
+}
+
+main {
+    /* grid layout */ 
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 1em 0; /* set top and bottom to be 1em */
+    max-width: 100%;
+    gap: 2em;
+}
+
+section {
+    margin: auto 1em 4em 2em;
+}
+
+i {
+    margin-right: .5em;
+}
+
+p {
+    margin: .2em auto
+}
+
+h1, h2, h3 {
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+#profile-pic {
+    display: block;
+    /* Centers horiztonally with margin auto */
+    margin: 2em auto;
+    max-height: 150px;
+    width: 150px;
+    border: 1px solid lightgray;
+}
+
+#mainLeft {
+    border-right: 1px solid lightgray;
+}
+
+#name-title {
+    text-align: center;
+}
